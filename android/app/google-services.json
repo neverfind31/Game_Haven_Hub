@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "663360799625",
+    "firebase_url": "https://gobusfb-default-rtdb.firebaseio.com",
+    "project_id": "gobusfb",
+    "storage_bucket": "gobusfb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663360799625:android:f3fa8b4f7c82f5e0119758",
+        "android_client_info": {
+          "package_name": "com.bustrackapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "663360799625-6orq93pk7ni1go3ttknd8pjmhfpuor1n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWbIUt5SXc8ksR-2KQIHZqajY8J-whpxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "663360799625-6orq93pk7ni1go3ttknd8pjmhfpuor1n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "663360799625-rl48njnqi1j43guf2vpvesc1vbeoj517.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bustrackapp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663360799625:android:cae2824b4d395c2d119758",
+        "android_client_info": {
+          "package_name": "com.game_haven_hub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "663360799625-6orq93pk7ni1go3ttknd8pjmhfpuor1n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWbIUt5SXc8ksR-2KQIHZqajY8J-whpxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "663360799625-6orq93pk7ni1go3ttknd8pjmhfpuor1n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "663360799625-rl48njnqi1j43guf2vpvesc1vbeoj517.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bustrackapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
