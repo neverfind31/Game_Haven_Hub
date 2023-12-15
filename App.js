@@ -5,13 +5,18 @@ import {
   Text,
   View,
 } from 'react-native';
+import { Provider } from 'react-redux';
+import RootNavigator from './src/routers'
+import { store } from './src/store';
 
-function App(){
+function App() {
 
   return (
-    <SafeAreaView>
-        
-    </SafeAreaView>
+    <Provider store={store}>
+
+    <RootNavigator />
+    </Provider>
+
   );
 }
 
