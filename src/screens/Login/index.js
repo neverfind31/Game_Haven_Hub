@@ -3,7 +3,7 @@ import { View, Image, TextInput, StyleSheet, Text, TouchableOpacity, ImageBackgr
 import Images from '../../assets/images';
 import LinearGradient from 'react-native-linear-gradient';
 
-const Index = () => {
+const Index = ({navigation}) => {
   // State for TextInput
   const [name, onChangeName] = useState('');
   const [mobNo, onChangeMobNo] = useState('');
@@ -56,7 +56,27 @@ const Index = () => {
         </TouchableOpacity>
       </View>
 
-      <LinearGradient colors={['#FC210D', '#450A3B']} style={{
+      <TouchableOpacity  
+      style={{    height: 50,
+        borderRadius: 5,
+        position: 'absolute',
+        bottom: 40,
+        alignItems: 'center',
+        justifyContent: 'center',
+        paddingHorizontal: 80,
+        shadowColor: '#000',
+        shadowOffset: {
+          width: 0,
+          height: 2,
+        },
+        shadowOpacity: 0.25,
+        shadowRadius: 3.84,
+        elevation: 5,
+      }}
+      onPress={()=> navigation.navigate('Qestions')}>
+      <LinearGradient 
+      colors={['#FC210D', '#450A3B']} 
+      style={{
         height: 50,
         borderRadius: 5,
         backgroundColor: '#e71616',
@@ -76,6 +96,7 @@ const Index = () => {
       }}>
         <Text style={{ color: '#ffffff', fontSize: 18, fontWeight: '600' }}>Next</Text>
       </LinearGradient>
+      </TouchableOpacity>
     </ImageBackground>
   );
 };
